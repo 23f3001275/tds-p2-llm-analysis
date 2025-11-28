@@ -108,7 +108,7 @@ These are required for OCR, audio transcription, and Playwright.
 Install:
 
 - [Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki)
--FFmpeg
+- FFmpeg
 Install via Chocolatey:
 ```
 choco install ffmpeg
@@ -268,6 +268,7 @@ The Dockerfile installs:
 ## 📄 License
 
 Licensed under the MIT License.
+
 
 
 
