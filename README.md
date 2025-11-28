@@ -22,14 +22,14 @@ The agent can:
 ---
 
 ## 🏗️ Architecture
-
+```
 FastAPI → Agent (Gemini 2.5 Flash) → Tool Router
                        │
        ┌───────────────┴───────────────┬───────────────┬──────────────┐
        ▼                               ▼               ▼              ▼
 Web Scraper                    Code Executor     File Downloader   POST Request Tool
 (Playwright)                      (Python)           (Files)         (Submissions)
-
+```
 
 
 ### Core Components
@@ -45,7 +45,7 @@ Web Scraper                    Code Executor     File Downloader   POST Request 
 ---
 
 ## 📂 Project Structure
-
+```
 LLM-Analysis-TDS-Project-2/
 ├── agent.py
 ├── main.py
@@ -60,7 +60,7 @@ LLM-Analysis-TDS-Project-2/
 ├── pyproject.toml
 ├── README.md
 └── .env.example
-
+```
 
 ---
 
@@ -69,7 +69,7 @@ LLM-Analysis-TDS-Project-2/
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/saivijayragav/LLM-Analysis-TDS-Project-2.git
+git clone [https://github.com/saivijayragav/LLM-Analysis-TDS-Project-2.git](https://github.com/23f3001275/tds-p2-llm-analysis.git)
 cd LLM-Analysis-TDS-Project-2
 ```
 
@@ -174,4 +174,5 @@ Everything runs fully autonomously.
 ## 📄 License
 
 Licensed under the MIT License.
+
 
