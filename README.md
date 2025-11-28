@@ -97,11 +97,6 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-### 5. Install uv (required)
-```
-pip install uv
-```
-
 ## 🔧 Environment Configuration
 
 Create a `.env` file:
@@ -187,6 +182,7 @@ Everything runs fully autonomously.
 ## 📄 License
 
 Licensed under the MIT License.
+
 
 
 
