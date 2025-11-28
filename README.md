@@ -113,7 +113,7 @@ Install via Chocolatey:
 ```
 choco install ffmpeg
 ```
--Playwright Chromium
+- Playwright Chromium
 ```
 playwright install chromium
 ```
@@ -268,6 +268,7 @@ The Dockerfile installs:
 ## 📄 License
 
 Licensed under the MIT License.
+
 
 
 
