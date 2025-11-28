@@ -69,7 +69,7 @@ LLM-Analysis-TDS-Project-2/
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/saivijayragav/LLM-Analysis-TDS-Project-2.git
+git clone https://github.com/23f3001275/tds-p2-llm-analysis.git
 cd LLM-Analysis-TDS-Project-2
 ```
 
@@ -135,6 +135,7 @@ curl -X POST http://localhost:7860/solve \
 
 Expected response:
 `{ "status": "ok" } `
+
 The agent will continue solving in the background.
 
 
@@ -181,6 +182,7 @@ Everything runs fully autonomously.
 ## 📄 License
 
 Licensed under the MIT License.
+
 
 
 
