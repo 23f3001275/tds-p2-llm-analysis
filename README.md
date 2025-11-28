@@ -1,7 +1,7 @@
 # 🧠 LLM Analysis — Autonomous Quiz Solver Agent
 
-An autonomous multi-tool agent built with **LangGraph**, **LangChain**, and **Google Gemini 2.5 Flash** to solve multi-step data-science quizzes.  
-The agent fetches quiz pages, scrapes data, processes files, runs generated Python code, and submits answers — fully automatically.
+An autonomous multi-tool agent built with **LangGraph**, **LangChain**, and **Google Gemini 2.5 Flash** to solve multi-step data-science quizzes.
+The agent scrapes quiz pages, downloads files, processes data, executes Python code, and submits answers—fully autonomously.
 
 ---
 
@@ -9,15 +9,15 @@ The agent fetches quiz pages, scrapes data, processes files, runs generated Pyth
 
 This project was developed for the **Tools in Data Science (TDS)** course at IIT Madras.
 
-The agent can:
+The agent performs:
 
-- Scrape **JavaScript-rendered** pages (Playwright)
-- Download and process **PDF/CSV/image** files
-- Generate & execute **Python analysis code**
-- Automatically **install missing dependencies**
-- Navigate **multi-step quiz chains**
-- Submit answers using **POST requests**
-- Run locally or in Docker
+- Scraping JavaScript-rendered pages via Playwright
+- Downloading and processing PDFs, CSVs, images
+- Running dynamically generated Python code
+- Automatically installing missing Python packages
+- Navigating multi-step quiz chains
+- Submitting answers via POST requests
+- Running locally or via Docker
 
 ---
 
@@ -92,9 +92,14 @@ source venv/bin/activate
 pip install -r requirements.txt
  ```
 
-### 4. 4. Install Playwright Browser
+### 4. Install Playwright Browser
 ``` 
 playwright install chromium
+```
+
+### 5. Install uv (required)
+```
+pip install uv
 ```
 
 ## 🔧 Environment Configuration
@@ -182,6 +187,7 @@ Everything runs fully autonomously.
 ## 📄 License
 
 Licensed under the MIT License.
+
 
 
 
