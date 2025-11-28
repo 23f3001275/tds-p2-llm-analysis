@@ -89,7 +89,7 @@ source venv/bin/activate
 
 ### 3. Install Dependencies
 ```
-pip install -e
+pip install -r requirements.txt
  ```
 
 ### 4. 4. Install Playwright Browser
@@ -182,6 +182,7 @@ Everything runs fully autonomously.
 ## 📄 License
 
 Licensed under the MIT License.
+
 
 
 
