@@ -69,7 +69,7 @@ LLM-Analysis-TDS-Project-2/
 ### 1. Clone the Repository
 
 ```
-git clone [https://github.com/saivijayragav/LLM-Analysis-TDS-Project-2.git](https://github.com/23f3001275/tds-p2-llm-analysis.git)
+git clone https://github.com/saivijayragav/LLM-Analysis-TDS-Project-2.git
 cd LLM-Analysis-TDS-Project-2
 ```
 
@@ -88,10 +88,14 @@ source venv/bin/activate
 ```
 
 ### 3. Install Dependencies
-``` pip install -e ```
+```
+pip install -e
+ ```
 
 ### 4. 4. Install Playwright Browser
-``` playwright install chromium ```
+``` 
+playwright install chromium
+```
 
 ## 🔧 Environment Configuration
 
@@ -106,10 +110,13 @@ GOOGLE_API_KEY=your_gemini_api_key
 ## ▶️ Running the Server
 
 Run using Python:
-`python main.py`
-
+```
+python main.py
+```
 The service runs at:
-`http://0.0.0.0:7860`
+```
+http://0.0.0.0:7860
+```
 
 ## 🌐 Usage
 
@@ -127,9 +134,7 @@ curl -X POST http://localhost:7860/solve \
 ```
 
 Expected response:
-```
-{ "status": "ok" }
-```
+`{ "status": "ok" } `
 The agent will continue solving in the background.
 
 
@@ -147,7 +152,9 @@ The agent will continue solving in the background.
 ## 🐳 Docker Deployment (Optional)
 
 Build image:
-`docker build -t llm-analysis-agent .`
+```
+docker build -t llm-analysis-agent .
+```
 
 
 Run container:
@@ -174,5 +181,6 @@ Everything runs fully autonomously.
 ## 📄 License
 
 Licensed under the MIT License.
+
 
 
